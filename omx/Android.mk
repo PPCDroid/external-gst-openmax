@@ -39,7 +39,7 @@ LOCAL_C_INCLUDES := \
     $(GST_OPENMAX_TOP)/android          \
     $(GST_OPENMAX_TOP)/util/            \
     external/gstreamer         \
-    external/gstreamer/android \
+    external/gstreamer/android/arch/$(TARGET_ARCH) \
     external/gstreamer/libs    \
     external/gstreamer/gst	    \
     external/gstreamer/gst/android	    \

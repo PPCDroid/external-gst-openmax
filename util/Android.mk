@@ -20,7 +20,7 @@ LOCAL_C_INCLUDES := 			\
 	external/glib   		\
 	external/glib/android   	\
 	external/gstreamer 		\
-	external/gstreamer/android	
+	external/gstreamer/android/arch/$(TARGET_ARCH)	
 
 
 LOCAL_MODULE := libgstomxutil
